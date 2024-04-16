@@ -11,6 +11,8 @@
 
     <!-- Toda programação JS precisa estar dentro de uma tag de script ou apontar para um script externo. Normalmente, o script fica no final da página (antes de termianr o body) -->
     <script>
+        // Habilitando o modo estrito da linguagem. Ao fazer isso, a linguagem passa a analizar se você declarou variáveis e não está usando palavras-reservadas. Se isso acontecer, erros serão exibidos.
+        'use strict';
         console.log("Hello World!");
 
         // Manipulação de dados
@@ -25,12 +27,21 @@
         // Constantes (valores fixos, não podem ser modificados)
         const escola = ("Senac");
         // Constantes sempre devem ter valores
-        const materia = ("Português")
+        const materia = ("Português");
 
         // Saída de dados
         console.log(curso);
         console.log(ano);
         console.log(escola);
+
+        // Criando variável sem declaração let
+        // nomeDaVariavel = ("algum valor");
+        // console.log(nomeDaVariavel);
+
+        // Palavras-chave de uso reservado: public, implements, private, arguments
+        // let public = ("Palavra reservada");
+        // console.log(public);
+
     </script>
 </body>
 </html>
