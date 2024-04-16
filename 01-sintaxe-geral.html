@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sintaxe geral no JS</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+    </style>
 </head>
 <body>
     <h1>Começando com JavaScript</h1>
@@ -41,6 +46,19 @@
         // Palavras-chave de uso reservado: public, implements, private, arguments
         // let public = ("Palavra reservada");
         // console.log(public);
+
+        // Saída de dados personalizados
+
+        // CONCATENAÇÃO (forma mais antiga/tradicional)
+        console.log("estou fazendo o curso de " +curso+" no " +escola+" Penha.");
+
+        // TEMPLATE LITERAL/STRING (forma mais moderna)
+        console.log(`Estou fazendo o curso de ${curso} no ${escola} Penha.`);
+
+        // Montando a frase antes de dar saída nela
+        let mensagem = (`Estou fazendo o curso de ${curso} no ${escola} Penha.`)
+
+        console.log(mensagem);
 
     </script>
 </body>
