@@ -36,3 +36,20 @@ if(idade >= 18){
 }
 
 console.log(`${usuario} é ${texto} de idade.`);
+
+console.log("if/else usando ternário ?:");
+let texto2 = idade >= 18 ? "maior" : "menor";
+console.log(`${usuario} é ${texto2} de idade.`);
+
+
+// Condicional ENCADEADA/SUCESSIVA
+let texto3;
+if(idade >= 60){
+    texto3 = "idoso(a)";
+} else if (idade >= 18){
+    texto3 = "adulto(a)";
+} else{
+    texto3 = "menor de idade";
+}
+
+console.log(`${usuario} tem ${idade} anos e é ${texto3}`);
