@@ -30,3 +30,19 @@ const carro = {
 
 
 console.log(`O ${carro.marca} ${carro.modelo} fabricado em ${carro.anoDeFabricacao} com ${carro.quantidadeDePortas} portas e com ${carro.listaOpcional[1]}, foi um famoso no Brasil`);
+
+
+// Objeto com array e outro objeto
+const pessoa = {
+    nome: "Chapolin Colorado",
+    idade: 20,
+    // Obs: usamos aspas neste caso pois não se trata de números matemáticos ou monetários.
+    telefones: ["11-2135-0300", "11-96666-5555"],
+    // Propriedade como objeto
+    medidasFisicas: {
+        peso: 75,
+        altura: 1.66
+    }
+}
+
+console.log(`O ${pessoa.nome} tem ${pessoa.medidasFisicas.peso}kg e ${pessoa.medidasFisicas.altura}m de altura. Contato: ${pessoa.telefones[1]}`);
