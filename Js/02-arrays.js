@@ -21,4 +21,5 @@ const tecnologias = [
     ["PHP", "Node.Js", "SQL", "Python", "Firebase"]
 ];
 
-console.log(tecnologias[0][1]);
+console.log(tecnologias[0][1]); 
+console.log(tecnologias[1][3]);
