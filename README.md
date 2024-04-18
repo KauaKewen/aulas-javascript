@@ -31,3 +31,21 @@ Feita através de dados de diferentes tipos armazenados em mémoria Ram com o us
 - Boolean (booleano, valores true/verdadeiro ou false/falso)
 
 Dica: para verificar o tipo de dado de uma variável/constante, usamos o comando `typeof nomeDaVariavelOuConstante`
+
+
+---
+
+### Sobre operadores lógicos
+
+
+### Operador && (E/AND)
+
+Ao usar condicionais com **&&**, todas as condições precisam ser verdadeiras para que o resultado seja verdadeiro.
+
+### Operador || (OU/OR)
+
+Ao usar condicionais com **||**, basta que apenas uma das condições seja verdadeira para que o resultado seja verdadeiro.
+
+### Operador ! (NEGAÇÃO/NOT)
+
+Ao usar condicionais com **!**, ocorre a inversão de lógica. Portanto, o que era **true/verdadeiro** passa a ser tratado como **false/falso** e vice-versa. Operador muito útil para inversão de lógica de funções e outros recursos.
