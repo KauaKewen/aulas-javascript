@@ -41,3 +41,33 @@ console.log(subtitulos[0]);
 
 const variosElementos = document.querySelectorAll("p, a, p b, #teste");
 console.log(variosElementos);
+
+/* Modificando o DOM:
+Podemos alterar conteúdo, tags, estilos, criar elementos, remover elementos e etc */
+// Alteração de conteúdo textual
+legenda.textContent = "Imagem do modelo de objetos do documento";
+
+sobreFront.innerHTML = "<i>Front-End</i>"; 
+
+// Alteração de estilos inline
+
+backEnd.style.color = "red";
+backEnd.style.textAlign = "center";
+
+// Aplicação de classes CSS via JavaScript
+titulo.classList.add("destaque");
+
+const listaDeEditores = [
+    {
+        nome: "Visual Studio Code",
+        finalidade: "Desenvolvimento web em geral"
+    },
+    {
+        nome: "Android Studio",
+        finalidade: "Desenvolvimento de aplicações Android"
+    },
+    {
+        nome: "Xcode",
+        finalidade: "Desenvolvimento de aplicações IOS"
+    }
+]
