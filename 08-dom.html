@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript - DOM</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+	font-family: "Segoe UI", Verdana, sans-serif;
+	background-color: #2874BA;
+}
+
+.container {
+	width: 80%;
+	max-width: 1000px;
+	margin: auto;
+	background-color: white;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+figure { margin: 0; text-align: center; }  
+
+img { max-width: 100%; }
+   
+.destaque {
+    background-color: darkblue;
+	color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+    
+</style>
+</head>
+
+<body>
+<div class="container">
+    <h1>Manipulando o DOM</h1>
+    <hr>
+    <h2>O que é o DOM?</h2>
+    <p>O Modelo de Objeto de Documento (DOM) é uma representação estruturada do documento como uma árvore.</p>
+
+    <figure class="exemplo">
+        <a href="https://github.com/braziljs/eloquente-javascript/blob/master/chapters/13-document-object-model.md"
+            target="_blank">
+            <img src="https://raw.githubusercontent.com/braziljs/eloquente-javascript/master/img/html-tree.jpg" alt="">
+        </a>
+        <figcaption id="legenda">
+            Representação do DOM
+        </figcaption>
+    </figure>
+
+    <p>O DOM possui métodos que permitem acesso à árvore, para que eles possam alterar a estrutura, estilo e conteúdo do
+        documento.</p>
+
+    <hr>
+    
+    <h2 id="sobre">Sobre linguagens Front-End</h2>
+    <p>Usamos HTML para estruturar e CSS para estilizar.</p>
+    <p>JavaScript é uma linguagem de programação para projetos web.</p>
+    
+    
+    <h2 class="back-end">Back-End</h2>
+    <p>Área de desenvolvimento com tecnologias de servidor.</p>
+    <p>Neste segmento você trabalha com bancos de dados e linguagens como PHP, Python, Java e até mesmo JavaScript.</p>
+
+    <div class="editores">
+        <h2>Editores de código</h2>
+		<ol class="lista"></ol>
+    </div>
+    
+    <hr>
+
+    <h2>Referências</h2>
+
+    <ul class="referencias">
+        <li><a href="https://github.com/braziljs/eloquente-javascript/blob/master/chapters/13-document-object-model.md">O Document Object Model</a> </li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM">Modelo de Objeto de Documento (DOM)</a></li>
+        <li><a href="https://tableless.com.br/entendendo-o-dom-document-object-model/">Entendendo o DOM</a></li>
+        <li><a href="https://github.com/braziljs/eloquente-javascript/blob/master/chapters/14-manipulando-eventos.md">Manipulando Eventos</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Elementos_construtivos/Events">Introdução a eventos</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Web Docs - JavaScript</a></li>
+        <li><a href="https://javascript.info/">JavaScript.info</a></li>
+        <li><a href="https://www.w3schools.com/js/">W3Schools JavaScript Tutorial</a></li>
+        <li><a href="https://javascriptweekly.com/">JavaScript Weekly Newsletter</a></li>
+        <li><a href="https://eloquentjavascript.net/">Eloquent JavaScript Book</a></li>
+        <li><a href="http://bonsaiden.github.io/JavaScript-Garden/">JavaScript Garden - Annotated Version</a></li>
+        <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/">JavaScript Design Patterns</a></li>
+        <li><a href="https://github.com/getify/You-Dont-Know-JS">You Don't Know JS</a></li>
+        <li><a href="https://jsfiddle.net/">JSFiddle - Online JavaScript Editor</a></li>
+        <li><a href="https://jsbin.com/">JS Bin - Collaborative JavaScript Debugging</a></li>
+        <li><a href="https://codepen.io/">CodePen - Social Development Environment for Front-End Designers and Developers</a></li>
+        <li><a href="https://www.tutorialsteacher.com/es6/">ES6 Features with Examples</a></li>
+        <li><a href="https://google.github.io/styleguide/jsguide.html">JavaScript Style Guide</a></li>
+        <li><a href="https://www.freecodecamp.org/learn/">JavaScript Algorithms and Data Structures</a></li>
+        <li><a href="https://nodejs.org/">Node.js Official Website</a></li>
+    </ul>
+</div> 
+
+<script src="Js/08-dom.js"></script>
+
+
+</body>
+
+</html>
