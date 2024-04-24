@@ -42,10 +42,10 @@ console.log(somar(100, 5));
 console.log("----------------");
 
 /* Formatação de valores monetários em reais */
+
 let preco = 5000;
 let desconto = preco * 0.10 //10%
 let precoFinal = preco - desconto;
-
 
 function formatarValor(valor){
     /* Constante/variável de escopo LOCAL, ou seja, só pode ser usada aqui dentro desta função */
