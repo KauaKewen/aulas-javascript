@@ -58,10 +58,18 @@ botao.addEventListener("click", function(){
     
     pagina.style.transition = "2s"
     divContainer.style.transition = "2s"
-
+    /* Se a classe "noturno" estiver sendo aplicada... */
    if (pagina.classList.contains("noturno")) {
+    // então mude o texto do botão para "Desativar"
     noturno.textContent = "Desativar"
    }else {
+    // senão, mude o texto do botão para "Ativar"
     noturno.textContent = "Ativar"
    }
 })
+
+let a = 10;
+let b = "10";
+
+console.log(a==b);
+console.log(a===b);
