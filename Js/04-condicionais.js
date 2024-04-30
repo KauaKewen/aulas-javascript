@@ -13,7 +13,14 @@ Operadores relacionais:
 >= MAIOR OU IGUAL
 <= MENOR OU IGUAL
 != DIFERENÇA
-== IGUALDADE  */
+== IGUALDADE (considera somente valor)
+=== IGUALDADE ESTRITA (considera valor e tipo de dados)
+
+let a = 10;
+let b = "10";
+
+console.log(a==b);
+console.log(a===b);*/
 
 // Condicional SIMPLES
 let numero = 10;
